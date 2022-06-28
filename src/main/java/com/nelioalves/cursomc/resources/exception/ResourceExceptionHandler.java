@@ -9,6 +9,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+import com.amazonaws.AmazonServiceException;
 import com.nelioalves.cursomc.service.exceptions.AuthorizationException;
 import com.nelioalves.cursomc.service.exceptions.DataIntegrityException;
 import com.nelioalves.cursomc.service.exceptions.ObjectNotFoundException;
