@@ -130,7 +130,7 @@ public class ClienteService {
 		
 		Optional<Cliente> cliente = clienteRepository.findById(user.getId());
 		
-		cliente.get().setImageUrl(uri.toString());
+		//cliente.get().setImageUrl(uri.toString());
 		clienteRepository.save(cliente.get());
 		
 		return uri;
