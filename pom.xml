@@ -78,7 +78,7 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk</artifactId>
-			<version>1.12.249</version>
+			<version>1.11.163</version>
 		</dependency>
 
 		<dependency>
@@ -86,6 +86,13 @@
 			<artifactId>commons-io</artifactId>
 			<version>2.11.0</version>
 		</dependency>
+
+		<dependency>
+			<groupId>no.tornado</groupId>
+			<artifactId>tornadofx-android-compat</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+
 
 
 
